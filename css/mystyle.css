@@ -8,33 +8,7 @@
     height: 100%;
   }
 
-  .footer{ background:#eee;
-  align-items: center;
-  display: flex;
-  min-height:150px;
-  text-align: center;
-
-}
-
-.footer .heading{
-  position: relative;
-  left: -80px;
-  font-weight: bold;
-}
-/*--------------*/
-.footer ul li a:hover{
-color: #17a2b8;
-
-}
-
-.footer ul li a{
-color: #555;
-text-decoration: none;
-font-weight: 600;
-transition: .4s ease-in-out;
-line-height: 30px;
-
-}
+  
 
 
 
@@ -64,9 +38,9 @@ line-height: 30px;
 }
 
 .site-social-links a {
-  background-color:#17a2b8;
-  color: #fff;
+  background-color:#888;
   display: inline-block;
+
   font-size: 20px;
   width: 40px; 
   height: 40px;
@@ -104,6 +78,26 @@ line-height: 30px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg4{
+  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/vd.jpg");
+   /* Full height */
+  height: 150px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg5{
+  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/cy.jpg");
+   /* Full height */
+  height: 150px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .xover {
     margin: 0px;
@@ -175,12 +169,66 @@ line-height: 30px;
   font-size:20px;
   width: 60px;
   height: 60px;
-  background:#0000B0;
+  background:#013E50;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
  }
 
  .bg3{
-    background:#0000B0;
+   background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#013E50;
+background-size:5px 5px;
  }
+
+ .footer{ 
+  background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#013E50;
+background-size:5px 5px;
+  align-items: center;
+  display: flex;
+  min-height:150px;
+  text-align: center;
+
+}
+
+.footer .heading{
+  position: relative;
+  left: -80px;
+  font-weight: bold;
+}
+/*--------------*/
+.footer ul li a:hover{
+color: yellow;
+
+}
+
+.footer ul li a{
+color: #eee;
+text-decoration: none;
+font-weight: 600;
+transition: .4s ease-in-out;
+line-height: 30px;
+
+}
+
+ .footer .text-info, .footer a ,.footer p ,.footer h4{
+  color:#ddd !important;
+ }
+
+.footer h6 {
+  color:#f5c71a;
+}
+
+.bs-example{
+  background: #eee;
+  border-bottom: 1px solid yellow;
+}
