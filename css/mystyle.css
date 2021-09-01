@@ -8,10 +8,6 @@
     height: 100%;
   }
 
-  
-
-
-
 /*---social media icons----*/
 .site-social-links .link-fb:hover {
   background-color: #0275d8;
@@ -59,44 +55,6 @@
 }
 
 /*------------*/
-.bg{
-  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/na.jpg");
-   /* Full height */
-  height: 250px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg2{
-  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/na.jpg");
-   /* Full height */
-  height: 150px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bg4{
-  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/vd.jpg");
-   /* Full height */
-  height: 150px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bg5{
-  background:linear-gradient(rgb(0,0,0,1), rgb(5,0,0,0.7)), url("../img/cy.jpg");
-   /* Full height */
-  height: 150px;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 .xover {
@@ -175,30 +133,7 @@
   border-radius: 50%;
  }
 
- .bg3{
-   background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#013E50;
-background-size:5px 5px;
- }
 
- .footer{ 
-  background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#013E50;
-background-size:5px 5px;
-  align-items: center;
-  display: flex;
-  min-height:150px;
-  text-align: center;
-
-}
 
 .footer .heading{
   position: relative;
