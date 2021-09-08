@@ -8,6 +8,20 @@
     height: 100%;
   }
 
+
+/*---home page----*/
+
+.lead{
+  text-align: justify;
+}
+
+
+/*---about page----*/
+
+.abt{
+  text-align: justify;
+}
+
 /*---social media icons----*/
 .site-social-links .link-fb:hover {
   background-color: #0275d8;
@@ -83,13 +97,11 @@
  }
 
  #clients .clients-wrap {
-     border-top: 1px solid #d6eaff;
-     border-left: 1px solid #d6eaff;
      margin-bottom: 30px
  }
 
  #clients .client-logo {
-     padding: 30px;
+     padding:30px;
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -104,14 +116,26 @@
      align-items: center;
      border-right: 1px solid #d6eaff;
      border-bottom: 1px solid #d6eaff;
+       border-left: 1px solid #d6eaff;
+     border-top: 1px solid #d6eaff;
      overflow: hidden;
      background: #fff;
-     height: 160px
+     height: 170px;
+     transition: all 0.5s ease-in-out;
+     margin: 10px;
  }
 
  #clients img {
-     transition: all 0.4s ease-in-out
+     transition: all 0.4s ease-in-out;
  }
+
+  #clients img:hover {
+    transform: scale(1.1);
+ }
+
+#clients .client-logo:hover{
+    box-shadow: 0 0 10px greenyellow;
+}
 
  .sujay a{
   font-size: 17px;
@@ -166,4 +190,21 @@ line-height: 30px;
 .bs-example{
   background: #eee;
   border-bottom: 1px solid yellow;
+}
+
+.machine .card{
+  transition: all 0.2s ease-in !important;
+}
+
+.machine a{
+  transition: 0.3s ease-in-out !important;
+}
+
+.machine .card:hover{
+  box-shadow: 2px 2px 5px #ddd !important;
+  border:1px solid navy !important;
+}
+
+.machine a:hover{
+  box-shadow: 0 0 5px yellow !important;
 }
